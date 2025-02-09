@@ -33,7 +33,7 @@ namespace PATrilhasAtiv05
 			}	
 			Console.Clear();
 			
-			Console.WriteLine("\n\rO maior núemro dessa sequência é : {0}", maiorvalor);	
+			Console.WriteLine("\n\rO maior valor dessa sequência é : {0}", maiorvalor);	
 			Console.WriteLine();
 			Console.WriteLine("\n\rPress any key to continue . . . ");
 			Console.ReadKey(true);
