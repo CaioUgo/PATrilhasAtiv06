@@ -6,18 +6,18 @@ namespace PATrilhasAtiv05
 	{
 		public static void Main()
 		{		 
-			int[] vetorA = new int[3];
-			int[] vetorB = new int[3];
-			int[] vetorSoma = new int[3];
+			int[] vetorA = new int[5];
+			int[] vetorB = new int[5];
+			int[] vetorSoma = new int[5];
 			
-			Console.WriteLine("Digite 3 valores para o vetorA: ");
+			Console.WriteLine("Digite 5 valores para o vetorA: ");
 			for (int i = 0; i < vetorA.Length; i++)
 			{
 				Console.Write("Valor {0}: ", i + 1);
 				vetorA[i] = int.Parse(Console.ReadLine());
 			}
 			
-			Console.WriteLine("\n\rDigite 3 valores para o vetorB: ");
+			Console.WriteLine("\n\rDigite 5 valores para o vetorB: ");
 			for (int i = 0; i < vetorB.Length; i++)
 			{
 				Console.Write("Valor {0}: ", i + 1);
